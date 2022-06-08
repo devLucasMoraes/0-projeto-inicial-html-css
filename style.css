@@ -102,8 +102,7 @@ footer table {
 }
 
 main {
-    width: 940px;
-    margin: 0 auto;
+
 }
 
 form {
@@ -147,6 +146,7 @@ form label, form legend {
 /* css da pagina inicial */
 .banner {
     width: 100%;
+    background-color: #fefefe;
 }
 
 .titulo-principal {
@@ -154,6 +154,12 @@ form label, form legend {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -174,8 +180,25 @@ form label, form legend {
     margin: 0 20px 20px 0;
 }
 
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 .beneficios {
     padding: 3em 0;
+    background-color: #888888;
 }
 
 .conteudo-beneficios {
@@ -199,15 +222,6 @@ form label, form legend {
 
 .itens:first-child {
     font-weight: bold;
-}
-
-.mapa {
-    padding: 3em 0;
-}
-
-.mapa p {
-    margin: 0 0 2em;
-    text-align: center;
 }
 
 .video {
